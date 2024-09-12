@@ -65,6 +65,4 @@ Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/Paulovinicius212/PIPELINE_GEN_AI.git
    d9bd461..9c520c1  main -> main
-
-VINIX@DESKTOP-VL9P071 MINGW64 /d/ESTACIO PROJETOS/CIÊNCIA_DADOS/PIPELINE_GEN_AI (main)
-$ pip install psycopg2-binary
+$ pip install mkdocstrings mkdocstrings-python
