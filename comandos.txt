@@ -1,1 +1,42 @@
 streamlit run app.py
+Para adicionar todos os seus arquivos do VS Code ao Git pelo terminal, você pode seguir estes passos:
+
+Navegue até o diretório do projeto:
+
+bash
+Copiar código
+cd D:\ESTACIO PROJETOS\CIÊNCIA_DADOS\PIPELINE_GEN_AI
+Inicialize um repositório Git (se ainda não o fez):
+
+csharp
+Copiar código
+git init
+Adicione todos os arquivos ao staging area:
+
+csharp
+Copiar código
+git add .
+O ponto (.) indica que você deseja adicionar todos os arquivos e diretórios dentro do diretório atual.
+
+Faça o commit das suas alterações:
+
+sql
+Copiar código
+git commit -m "Mensagem do commit"
+Substitua "Mensagem do commit" por uma mensagem que descreva as alterações feitas.
+
+Se ainda não configurou um repositório remoto, adicione-o:
+
+csharp
+Copiar código
+git remote add origin <URL do repositório>
+Substitua <URL do repositório> pela URL do seu repositório Git remoto (por exemplo, um repositório no GitHub).
+
+Faça o push das suas alterações para o repositório remoto:
+
+perl
+Copiar código
+git push -u origin master
+Substitua master pelo nome da branch para a qual você deseja fazer o push, se for diferente.
+
+Se precisar de mais ajuda com qualquer uma dessas etapas, é só me avisar!
