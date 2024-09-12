@@ -40,3 +40,31 @@ git push -u origin master
 Substitua master pelo nome da branch para a qual você deseja fazer o push, se for diferente.
 
 Se precisar de mais ajuda com qualquer uma dessas etapas, é só me avisar!
+
+
+VINIX@DESKTOP-VL9P071 MINGW64 /d/ESTACIO PROJETOS/CIÊNCIA_DADOS/PIPELINE_GEN_AI (main)
+$ pip freeze > requeriments.txt
+
+VINIX@DESKTOP-VL9P071 MINGW64 /d/ESTACIO PROJETOS/CIÊNCIA_DADOS/PIPELINE_GEN_AI (main)
+$ git add .
+
+VINIX@DESKTOP-VL9P071 MINGW64 /d/ESTACIO PROJETOS/CIÊNCIA_DADOS/PIPELINE_GEN_AI (main)
+$ git commit -m "feat: adicionar sqlalchemy"
+[main 9c520c1] feat: adicionar sqlalchemy
+ 2 files changed, 133 insertions(+), 1 deletion(-)
+ create mode 100644 requeriments.txt
+
+VINIX@DESKTOP-VL9P071 MINGW64 /d/ESTACIO PROJETOS/CIÊNCIA_DADOS/PIPELINE_GEN_AI (main)
+$ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.77 KiB | 453.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Paulovinicius212/PIPELINE_GEN_AI.git
+   d9bd461..9c520c1  main -> main
+
+VINIX@DESKTOP-VL9P071 MINGW64 /d/ESTACIO PROJETOS/CIÊNCIA_DADOS/PIPELINE_GEN_AI (main)
+$ pip install psycopg2-binary
