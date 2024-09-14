@@ -10,8 +10,8 @@ load_dotenv()
 
 # Configuração do banco de dados PostgreSQL
 DB_HOST  =  os . getenv ( "dpg-crh2pctsvqrc7387c970-a.oregon-postgres.render.com" )
-DB_NAME  =  os . getenv ( “ciência” )
-DB_USER  =  os . getenv ( "usuário_ciência" )
+DB_NAME  =  os . getenv ( “ciencia” )
+DB_USER  =  os . getenv ( "ciencia_user" )
 DB_PASS  =  os . getenv ( "L1mB0823UBGqgI3UfcsFmcurTWrlaQkp" )
 
 # Função para salvar os dados validados no PostgreSQL
